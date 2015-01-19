@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/layerslider.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css">
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
@@ -118,77 +119,42 @@
 
 <!-- Page Content -->
 <div id="page-content">
-<!-- Slider -->
-<div id="homepage-carousel">
-    <div class="container">
-        <div class="homepage-carousel-wrapper">
-            <div class="row">
-                <div class="col-md-6 col-sm-7">
-                    <div class="image-carousel">
-                        <div class="image-carousel-slide"><img src="assets/img/slide-1.jpg" alt=""></div>
-                        <div class="image-carousel-slide"><img src="assets/img/slide-2.jpg" alt=""></div>
-                        <div class="image-carousel-slide"><img src="assets/img/slide-3.jpg" alt=""></div>
-                    </div><!-- /.slider-image -->
-                </div><!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-5">
-                    <div class="slider-content">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1>Join the comunity of modern thinking students</h1>
-                                <form id="slider-form" role="form">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="input-group">
-                                                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="Full Name" type="text">
-                                            </div>
-                                        </div><!-- /.col-md-6 -->
-                                        <div class="col-md-6">
-                                            <div class="input-group">
-                                                <input class="form-control has-dark-background" name="slider-email" id="slider-email" placeholder="Email" type="email">
-                                            </div>
-                                        </div><!-- /.col-md-6 -->
-                                    </div><!-- /.row -->
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="input-group">
-                                                <form method="get" action="#" class="form-inline">
-                                                    <select name="study-level" class="has-dark-background">
-                                                        <option value="">Study Level</option>
-                                                        <option value="2">Beginner</option>
-                                                        <option value="3">Advanced</option>
-                                                        <option value="4">Intermediate</option>
-                                                        <option value="5">Professional</option>
-                                                    </select>
-                                                </form>
-                                            </div><!-- /.form-group -->
-                                        </div><!-- /.col-md-6 -->
-                                        <div class="col-md-6">
-                                            <div class="input-group">
-                                                <form method="get" action="#" class="form-inline">
-                                                    <select name="courses" class="has-dark-background">
-                                                        <option value="">Courses</option>
-                                                        <option value="2">Art and Design</option>
-                                                        <option value="3">Marketing</option>
-                                                        <option value="4">Science</option>
-                                                        <option value="5">History and Psychology</option>
-                                                    </select>
-                                                </form>
-                                            </div><!-- /.form-group -->
-                                        </div><!-- /.col-md-6 -->
-                                    </div><!-- /.row -->
-                                    <button type="submit" class="btn btn-framed pull-right">Submit</button>
-                                </form>
-                            </div><!-- /.col-md-12 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.slider-content -->
-                </div><!-- /.col-md-6 -->
-            </div><!-- /.row -->
-            <div class="background"></div>
-        </div><!-- /.slider-wrapper -->
-        <div class="slider-inner"></div>
-    </div><!-- /.container -->
-</div>
-<!-- end Slider -->
+<!-- Homepage Slider -->
+<section id="homepage-slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li class="slide">
+                <figure>
+                    <div class="slide-wrapper">
+                        <div class="inner">
+                            <div class="container">
+                                <h2>Business Course</h2>
+                                <h1>Be a marketing guru</h1>
+                                <div><a href="course-detail-v1.html" class="btn">View Course Details</a></div>
+                            </div>
+                        </div><!-- /.inner -->
+                    </div><!-- /.wrapper -->
+                </figure>
+                <img src="assets/img/landing-page-background.jpg">
+            </li>
+            <li class="slide">
+                <figure>
+                    <div class="slide-wrapper">
+                        <div class="inner">
+                            <div class="container">
+                                <h2>Art and design</h2>
+                                <h1>Drawing for Everyone</h1>
+                                <div><a href="course-detail-v1.html" class="btn">View Course Details</a></div>
+                            </div>
+                        </div><!-- /.inner -->
+                    </div><!-- /.wrapper -->
+                </figure>
+                <img src="assets/img/slider-slide-02.jpg">
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- end Homepage Slider -->
 
 <!-- News, Events, About -->
 <div class="block">
@@ -659,6 +625,11 @@
 <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
 <script type="text/javascript" src="assets/js/icheck.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="assets/js/greensock.js"></script>
+<script type="text/javascript" src="assets/js/layerslider.transitions.js"></script>
+<script type="text/javascript" src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
 <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
 
 <script type="text/javascript" src="assets/js/custom.js"></script>
